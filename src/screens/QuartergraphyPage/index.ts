@@ -1,0 +1,1 @@
+export { QuartergraphyPage } from "./ui";

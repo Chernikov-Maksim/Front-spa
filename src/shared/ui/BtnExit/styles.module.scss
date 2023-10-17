@@ -1,0 +1,29 @@
+.btnExit {
+    @media (max-width: 1440px) {
+        font-size: 16px;
+    }
+    background: #f2f2f2;
+    color: #3e4550;
+    padding: 16px 40px;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    border: none;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background: #e6e6e6;
+    }
+
+    &:active {
+        background: #dadada;
+    }
+}
+
+.disabled {
+    opacity: 50%;
+    pointer-events: none;
+}

@@ -1,0 +1,113 @@
+.root {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.item {
+    @media (max-width: 1440px) {
+        gap: 24px;
+    }
+    width: 100%;
+    background: #ffffff;
+    padding: 32px;
+    border-radius: 18px;
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    
+    .list:nth-of-type(1),
+    .list:nth-of-type(6),
+    .list:nth-of-type(7) {
+        span {
+            font-weight: 700;
+        }
+    }
+    
+    .list:nth-of-type(1) {
+        @media (max-width: 1440px) {
+            flex-basis: 144px;
+        }
+        flex-basis: 248px;
+    }
+    
+    .list:nth-of-type(2) {
+        @media (max-width: 1440px) {
+            flex-basis: 172px;
+        }
+        flex-basis: 260px;
+    }
+    
+    .list:nth-of-type(3) {
+        @media (max-width: 1440px) {
+            flex-basis: 243px;
+        }
+        flex-basis: 254px;
+    }
+    
+    .list:nth-of-type(4) {
+        @media (max-width: 1440px) {
+            flex-basis: 193px;
+        }
+        flex-basis: 244px;
+    }
+    
+    .list:nth-of-type(5) {
+        @media (max-width: 1440px) {
+            flex-basis: 104px;
+        }
+        flex-basis: 104px;
+    }
+    
+    .list:nth-of-type(6) {
+        @media (max-width: 1440px) {
+            flex-basis: 106px;
+        }
+        flex-basis: 136px;
+    }
+    
+    .list:nth-of-type(7) {
+        @media (max-width: 1440px) {
+            flex-basis: 110px;
+        }
+        flex-basis: 110px;
+    }
+    
+    span {
+        @media (max-width: 1440px) {
+            font-size: 16px;
+        }
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: -0.01em;
+        color: #3e4550;
+    }
+    
+    .column {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+        
+        span {
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            color: #a6a6a6;
+        }
+        
+        .flags {
+            margin-right: 6.42px;
+        }
+        
+        .distance {
+            margin-right: 4.5px;
+            color: #3e4550;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export { BtnDelit } from "./ui";

@@ -1,0 +1,1 @@
+export { QuartergraphyTable } from "./ui";

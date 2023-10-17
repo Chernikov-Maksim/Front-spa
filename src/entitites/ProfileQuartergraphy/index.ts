@@ -1,0 +1,1 @@
+export { ProfileQuartergraphy } from "./ui";

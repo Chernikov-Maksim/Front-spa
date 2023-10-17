@@ -1,0 +1,50 @@
+.auth {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+    .column {
+        min-height: 100vh;
+        width: 100%;
+
+        .leftImage {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .logoWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        @media (max-width: 1440px) {
+            min-width: 720px;
+        }
+        min-width: 960px;
+        background: #f2f2f2;
+        padding: 24px;
+
+        .logo {
+            @media (max-width: 1440px) {
+                margin-bottom: 81px;
+            }
+            margin-bottom: 112px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .bottomInfo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}

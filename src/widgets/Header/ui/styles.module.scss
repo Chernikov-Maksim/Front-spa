@@ -1,0 +1,33 @@
+.container {
+    padding: 24px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.logo {
+    flex-basis: 454px;
+    flex-grow: 1;
+    background: #ffffff;
+    padding: 16px 24px;
+    border-radius: 12px;
+}
+
+.profileButton {
+    flex-basis: 258px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #ffffff;
+    color: #3e4550;
+    border-radius: 12px;
+    padding: 16px 69.5px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -1%;
+    transition: all 0.2s ease-in-out;
+
+    @media (max-width: 1440px) {
+        font-size: 16px;
+    }
+}

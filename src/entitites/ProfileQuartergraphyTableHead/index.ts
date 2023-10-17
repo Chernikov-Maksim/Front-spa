@@ -1,0 +1,1 @@
+export { ProfileQuartergraphyTableHead } from "./ui";

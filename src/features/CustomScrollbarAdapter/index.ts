@@ -1,0 +1,1 @@
+export { CustomScrollbarAdapter } from "./ui";

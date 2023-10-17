@@ -1,0 +1,126 @@
+.subTitle {
+    @media (max-width: 1440px) {
+        font-size: 14px;
+    }
+    max-width: 777px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21.75px;
+    letter-spacing: -0.01em;
+    color: #3e4550;
+}
+.rowContent {
+    @media (max-width: 1440px) {
+        margin: 24px 0px 16px 0px;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 0px 24px 0px;
+    .title {
+        @media (max-width: 1440px) {
+            font-size: 22px;
+        }
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+    }
+}
+.rowCards {
+    @media (max-width: 1440px) {
+        padding: 17.5px 16px 16px;
+    }
+    background: #f2f2f2;
+    border-radius: 24px;
+    padding: 20.5px 24px 24px;
+}
+.columnCards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    .column {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .delete {
+        flex-shrink: 0;
+        padding: 15.56px 16.5px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        img {
+            transition: all 0.2s ease-in-out;
+        }
+        &:hover {
+            background: #ffffff;
+            img {
+                filter: invert(1);
+            }
+        }
+    }
+    
+}
+
+.titleModal {
+    @media (max-width: 1440px) {
+        font-size: 32px;
+    }
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    max-width: 281px;
+    margin-bottom: 16px;
+}
+.subTitileModal {
+    @media (max-width: 1440px) {
+        font-size: 14px;
+        margin-bottom: 48px;
+    }
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    max-width: 312px;
+    margin-bottom: 52px;
+    color: #a6a6a6;
+}
+.btnSelection {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    .btnCancel {
+        @media (max-width: 1440px) {
+            font-size: 16px;
+        }
+        width: 196px;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: -0.01em;
+        padding: 19.5px 57px;
+        border: none;
+        border-radius: 12px;
+        color: #ffffff;
+        background: #e40428;
+    }
+    .btnDelete {
+        @media (max-width: 1440px) {
+            font-size: 14px;
+        }
+        width: 196px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: -0.01em;
+        padding: 18.5px 67.5px;
+        border-radius: 12px;
+        border: 2px solid #e40428;
+        color: #e40428;
+        background: #ffffff;
+    }
+}

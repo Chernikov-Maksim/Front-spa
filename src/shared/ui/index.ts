@@ -1,0 +1,10 @@
+export { Wrapper, type WrapperProps } from "./Wrapper";
+export { Version } from "./Version";
+export { BtnInfo, type BtnInfoProps } from "./BtnInfo";
+export { Button, type ButtonProps } from "./Button";
+export { InputLogin, type InputLoginProps } from "./InputLogin";
+export { InputPassword, type InputPasswordProps } from "./InputPassword";
+export { BtnSearch, type BtnSearchProps } from "./BtnSearch";
+export { Loader } from "./Loader";
+export { Modal } from "./Modal";
+export { Pagination } from "./Pagination";

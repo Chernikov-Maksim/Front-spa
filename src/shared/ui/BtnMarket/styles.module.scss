@@ -1,0 +1,33 @@
+.btnMarket {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding: 20px 0;
+    border-radius: 12px;
+    max-width: 263px;
+    text-align: center;
+    background: #ffffff;
+    color: #e40428;
+    border: 2px solid #e40428;
+    transition: all 0.2s ease-in-out;
+
+    @media (max-width: 1440px) {
+        font-size: 15px;
+    }
+
+    &:hover {
+        border: 2px solid #ce0021;
+        color: #ce0021;
+    }
+
+    &:active {
+        border: 2px solid #b5001d;
+        color: #b5001d;
+    }
+}
+
+.disabled {
+    opacity: 30%;
+    pointer-events: none;
+}

@@ -1,0 +1,92 @@
+.accoutn {
+    .row {
+        @media (max-width: 1440px) {
+            margin-bottom: 16px;
+        }
+        margin-bottom: 24px;
+        
+        .column:nth-of-type(1) {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 24px;
+            
+            .item {
+                display: flex;
+                align-items: center;
+                
+                .title {
+                    @media (max-width: 1440px) {
+                        font-size: 32px;
+                    }
+                    font-size: 34px;
+                    font-weight: 700;
+                    line-height: 34px;
+                    letter-spacing: -0.015em;
+                }
+            }
+            
+            .exit {
+                margin-left: 8.52px;
+            }
+        }
+        
+        .link {
+            @media (max-width: 1440px) {
+                margin-bottom: 24px;
+            }
+            display: flex;
+            width: max-content;
+            align-items: center;
+            gap: 8px;
+            background: #f2f2f2;
+            padding: 8px;
+            border-radius: 8px;
+            margin-bottom: 32px;
+            
+            span:nth-of-type(1) {
+                @media (max-width: 1440px) {
+                    font-size: 18px;
+                }
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 14px;
+                letter-spacing: -0.02em;
+                color: #3e4550;
+            }
+            
+            button {
+                padding: 14px 40px;
+                border: none;
+                transition: all 0.2s ease-in-out;
+                border-radius: 8px;
+                line-height: 17px;
+                background: transparent;
+                
+                &:hover {
+                    background: rgb(228 228 228);
+                }
+            }
+            
+            .active {
+                background: #ffffff;
+                
+                &:hover {
+                    background: #ffffff;
+                }
+            }
+            
+            span:nth-of-type(2) {
+                @media (max-width: 1440px) {
+                    font-size: 18px;
+                }
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 14px;
+                letter-spacing: -0.02em;
+                color: #a6a6a6;
+                margin-left: 8px;
+            }
+        }
+    }
+}

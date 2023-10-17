@@ -1,0 +1,28 @@
+.btnAdd {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    padding: 27px 61.5px;
+    border: none;
+    border-radius: 12px;
+    background: #e40428;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+
+    @media (max-width: 1440px) {
+        font-size: 16px;
+    }
+
+    &:hover {
+        background: #ce0021;
+    }
+
+    &:active {
+        background: #b5001d;
+    }
+
+    &:disabled {
+        opacity: 30%;
+    }
+}

@@ -1,0 +1,16 @@
+.version {
+    display: flex;
+    align-items: center;
+
+    .ver {
+        font-size: 13px;
+        font-weight: 400;
+        color: #3e4550;
+        margin: 0 4px;
+        letter-spacing: -1%;
+
+        @media (max-width: 1440px) {
+            font-size: 12px;
+        }
+    }
+}

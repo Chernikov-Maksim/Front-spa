@@ -1,0 +1,103 @@
+.notFound {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("/images/notFound/blueBg.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ffffff;
+    border-radius: 32px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.animation {
+    width: 812px;
+    height: 425px;
+    margin-bottom: 40px;
+
+    svg {
+        width: 100%;
+        height: auto;
+    }
+
+    .circle {
+        width: 812px;
+        height: 425px;
+        background-color: white;
+        background-image: linear-gradient(
+                45deg,
+                #e0e0e0 25%,
+                transparent 25%,
+                transparent 74%,
+                #e0e0e0 75%,
+                #e0e0e0
+            ),
+            linear-gradient(
+                45deg,
+                #e0e0e0 25%,
+                transparent 25%,
+                transparent 74%,
+                #e0e0e0 75%,
+                #e0e0e0
+            );
+        background-size: 40px 40px;
+        background-position:
+            0 0,
+            20px 20px;
+        clip-path: url(#animation-clip);
+    }
+}
+
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: -0.015em;
+    text-align: center;
+    width: 571px;
+    margin-bottom: 16px;
+    color: #3e4550;
+}
+
+.subTitle {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 56px;
+    width: 518px;
+    color: #3e4550;
+}
+
+.return {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.01em;
+    border: none;
+    padding: 19.5px 40px;
+    border-radius: 12px;
+    color: #ffffff;
+    background: #e40428;
+}

@@ -1,0 +1,33 @@
+.procent {
+    display: flex;
+    align-items: center;
+
+    span:nth-of-type(1) {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #3e4550;
+        margin-right: 5px;
+        line-height: 20px;
+
+        @media (max-width: 1440px) {
+            font-size: 18px;
+        }
+    }
+
+    span:nth-of-type(2) {
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        color: #3e4550;
+
+        @media (max-width: 1440px) {
+            font-size: 14px;
+        }
+
+        sup {
+            font-size: 10px;
+            font-weight: 500;
+        }
+    }
+}

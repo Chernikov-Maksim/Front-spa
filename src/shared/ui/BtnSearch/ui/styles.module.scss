@@ -1,0 +1,30 @@
+.search {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    border-radius: 12px;
+    padding: 27px 64px;
+    border: none;
+    color: #ffffff;
+    background: #e40428;
+    transition: all 0.2s ease-in-out;
+    height: 72px;
+
+    @media (max-width: 1750px) {
+        font-size: 16px;
+    }
+
+    &:hover {
+        background: #ce0021;
+    }
+
+    &:active {
+        background: #b5001d;
+    }
+
+    &:disabled,
+    &.disabled {
+        opacity: 30%;
+    }
+}

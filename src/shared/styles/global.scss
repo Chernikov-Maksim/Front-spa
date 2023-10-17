@@ -1,0 +1,35 @@
+html {
+    font-family: "Golos Text", sans-serif;
+    font-size: 62.5%;
+}
+
+html,
+body {
+    font-size: 0.52085vw;
+
+    @media (max-width: 1440px) {
+        font-size: 0.694445vw;
+    }
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-internal-autofill-selected {
+    transition: background-color 0s 999999999999999s;
+}
+
+.color-second {
+    color: #A6A6A6;
+}

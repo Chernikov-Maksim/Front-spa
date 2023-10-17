@@ -1,0 +1,42 @@
+{
+    "plugins": [
+        "prettier-plugin-organize-attributes",
+        "@trivago/prettier-plugin-sort-imports"
+    ],
+    "arrowParens": "always",
+    "bracketSameLine": false,
+    "bracketSpacing": true,
+    "cursorOffset": -1,
+    "tabWidth": 4,
+    "embeddedLanguageFormatting": "auto",
+    "endOfLine": "lf",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxSingleQuote": false,
+    "printWidth": 120,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "semi": true,
+    "singleAttributePerLine": false,
+    "singleQuote": false,
+    "useTabs": false,
+    "trailingComma": "es5",
+    "importOrderSeparation": true,
+    "importOrder": [
+        "^classnames",
+        "^react",
+        "^next",
+        "^@mui",
+        "^formik",
+        "^yup",
+        "<THIRD_PARTY_MODULES>",
+        "^@/api",
+        "^@/components",
+        "^@/layout",
+        "^@/screen",
+        "^@/UI",
+        "^@/utils",
+        "^@/types",
+        ".(scss|css|sass|styl)$"
+    ]
+}

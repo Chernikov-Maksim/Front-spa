@@ -1,0 +1,80 @@
+.item {
+    position: relative;
+    width: 100%;
+}
+
+.password {
+    padding: 30px 53px 30px 24px;
+    border-radius: 18px;
+    background: #f2f2f2;
+    color: #3e4550;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -1%;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+    height: 72px;
+    position: relative;
+
+    @media (max-width: 1440px) {
+        font-size: 16px;
+    }
+}
+
+.password::placeholder {
+    font-size: 17px;
+    color: #a6a6a6;
+}
+
+.active {
+    border: 1px solid #dadada;
+}
+
+.watch {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 12px;
+    padding: 12px;
+    border: none;
+    background: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        background: #26262612;
+
+        .visibility {
+            transition: all 0.2s ease-in-out;
+            filter: invert(1);
+        }
+
+        .visibilityOff {
+            transition: all 0.2s ease-in-out;
+            filter: invert(1);
+        }
+    }
+}
+
+.error {
+    color: #e40428;
+    border: 1px solid #e40428;
+}
+
+.errorText {
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    align-self: flex-start;
+    color: #e40428;
+    display: none;
+
+    @media (max-width: 1440px) {
+        font-size: 12px;
+    }
+}

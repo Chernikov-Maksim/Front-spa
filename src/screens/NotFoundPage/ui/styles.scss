@@ -1,0 +1,55 @@
+.circleSvg {
+    circle {
+        r: 180;
+        cy: calc((425 / 2) + ((425 - 180 * 2) / 2));
+        
+        &:nth-child(1) {
+            cx: 180;
+            
+            animation: svgMovingOne 6s linear infinite;
+        }
+        &:nth-child(2) {
+            cx: calc(180 + 290);
+            
+            animation: svgMovingTwo 6s linear infinite;
+        }
+        
+        @keyframes svgMovingOne {
+            25% {
+                cy: 180;
+                cx: calc(19 + 180);
+            }
+            50% {
+                cy: calc((425 / 2) + ((425 - 180 * 2) / 2));
+                cx: calc(162 + 180);
+            }
+            75% {
+                cy: 180;
+                cx: calc(162 + 180);
+            }
+            100% {
+                cy: calc((425 / 2) + ((425 - 180 * 2) / 2));
+                cx: 180;
+            }
+        }
+        
+        @keyframes svgMovingTwo {
+            25% {
+                cy: 180;
+                cx: calc(290 + 180 + 19);
+            }
+            50% {
+                cy: calc((425 / 2) + ((425 - 180 * 2) / 2));
+                cx: calc(162 + 180 + 290);
+            }
+            75% {
+                cy: 180;
+                cx: calc(162 + 180 + 290);
+            }
+            100% {
+                cy: calc((425 / 2) + ((425 - 180 * 2) / 2));
+                cx: calc(180 + 290);
+            }
+        }
+    }
+}

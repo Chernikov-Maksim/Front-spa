@@ -1,0 +1,1 @@
+export { CompetitorsTableHead } from "./ui";

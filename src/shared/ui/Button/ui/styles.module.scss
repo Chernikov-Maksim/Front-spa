@@ -1,0 +1,32 @@
+.authBtn {
+    padding: 27.5px 174px;
+    border-radius: 12px;
+    background: #e40428;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: -1%;
+    color: #ffffff;
+    margin-bottom: 24px;
+    height: 72px;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+    
+    @media (max-width: 1440px) {
+        font-size: 16px;
+    }
+    
+    &:hover {
+        background: #ce0021;
+    }
+    
+    &:active {
+        background: #b5001d;
+    }
+    
+    &:disabled,
+    &.disabled {
+        background: #e40428;
+        opacity: 30%;
+    }
+}

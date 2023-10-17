@@ -1,0 +1,16 @@
+.back {
+    border: 0;
+    background: #f2f2f2;
+    padding: 19.79px;
+    border-radius: 12px;
+    margin-right: 16px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        background: #e6e6e6;
+    }
+
+    &:active {
+        background: #dadada;
+    }
+}

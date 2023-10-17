@@ -1,0 +1,42 @@
+.delit {
+    position: relative;
+    border: none;
+    padding: 14.5px;
+    margin-left: 8px;
+    background: none;
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+    flex-shrink: 0;
+    span {
+        @media (max-width: 1440px) {
+            font-size: 12px;
+        }
+        position: absolute;
+        right: 55px;
+        top: 0;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        line-height: 9px;
+        padding: 19.5px 16px;
+        border-radius: 12px;
+        background: #3e4550;
+        color: #ffffff;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s ease-in-out;
+    }
+    img {
+        transition: all 0.2s ease-in-out;
+    }
+    &:hover {
+        background: #ffffff;
+        img {
+            filter: invert(1);
+        }
+        span {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.btnInfo {
+    border: 1px solid #3e4550;
+    padding: 16.5px 32px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+
+    span {
+        @media (max-width: 1440px) {
+            font-size: 14px;
+        }
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -1%;
+        color: #3e4550;
+        margin-right: 8px;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &:active {
+        opacity: 0.8;
+    }
+}
